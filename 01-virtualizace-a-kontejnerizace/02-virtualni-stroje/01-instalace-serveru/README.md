@@ -151,7 +151,7 @@ V instalátoru jste potvrdili smazání celého 25 GB disku. Kolik místa ale za
 
 ---
 
-### 4. Úkol: "Zámečník" (Reset hesla)
+### 4. Úkol: Reset hesla
 *Tento úkol vyžaduje hledání na internetu.*
 
 Stát se to může každému – nainstalovali jste server, šli jste na oběd a po návratu jste zjistili, že jste zapomněli heslo pro uživatele `student`. A protože to je vaše jediná cesta dovnitř, jste nahraní. Nebo ne?

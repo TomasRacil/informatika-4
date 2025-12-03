@@ -50,16 +50,22 @@ Soubor `simple_cpu.py` obsahuje smyčku `while`, která:
 
 ## **Úkoly**
 
+---
+
 ### 0. Úkol: Jedoduchá úprava ROM
 1. Stáhněte si soubor [`simple_cpu.py`](./simple_cpu.py).  
 2. Spusťte ho v terminálu: python `simple_cpu.py`.  
 3. Podívejte se do kódu a zkuste změnit "program" (pole `rom`) tak, aby procesor spočítal a vypsal výsledek `50 + 50`.
+
+---
 
 ### 1. Úkol: Instrukce ODČÍTÁNÍ (SUB)
 Váš procesor zatím umí jen sčítat. To je pro reálné použití málo.
 * **Zadání:** Přidejte do třídy `SimpleEmulator` podporu pro instrukci `SUB` pod kódem `0x05`.
 * **Chování:** Instrukce odečte hodnotu registru B od registru A (`A = A - B`) a výsledek uloží do A.
 * **Test:** Upravte pole `program_rom` tak, aby procesor spočítal příklad `50 - 20` a výsledek (30) vypsal na displej.
+
+---
 
 ### 2. Úkol: Instrukce PROHOZENÍ (SWAP)
 V assembleru často potřebujeme prohodit data mezi registry, aniž bychom je ukládali do paměti.
@@ -70,6 +76,8 @@ V assembleru často potřebujeme prohodit data mezi registry, aniž bychom je uk
     2.  Načtěte do B hodnotu 2.
     3.  Zavolejte `SWAP`.
     4.  Zavolejte `PRINT` (Musí vypsat 2, nikoliv 1).
+
+---
 
 ### 3. Úkol: Vlastní Bootloader (Vizuální úprava)
 Emulátory starých konzolí mají často "Bootovací sekvenci" (logo Nintendo, PlayStation atd.), než se spustí hra.

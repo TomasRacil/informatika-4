@@ -62,7 +62,7 @@ Pokud se vás zeptá na heslo a přihlásí vás, máte splněno.
 
 ---
 
-### 1. Úkol: Rychlý web (Python HTTP)
+### 1. Úkol: Rychlý web 
 V materiálech jsme forwardovali port 80. Zkusme si ale vytvořit vlastní službu na nestandardním portu, abyste si ověřili, že chápete princip.
 
 * **Zadání:** Spusťte ve VM dočasný webový server na portu **9000** a zpřístupněte ho na svém PC na portu **9999**.
@@ -74,7 +74,7 @@ V materiálech jsme forwardovali port 80. Zkusme si ale vytvořit vlastní služ
 
 ---
 
-### 2. Úkol: Neviditelný stroj (Princip NAT)
+### 2. Úkol: Princip NAT
 Ověřte si v praxi, jak funguje "jednosměrné zrcadlo" NATu.
 
 * **Zadání:** Dokázat, že VM vidí ven, ale hostitel nevidí (přímo) dovnitř.
@@ -97,7 +97,7 @@ Když se připojíte přes SSH, server vás musí vidět. Ale jakou IP adresu uv
 
 ---
 
-### 4. Úkol: "Past na localhost" (Bind Address)
+### 4. Úkol: Bind Address
 *Tento problém trápí vývojáře denně. Pokud ho pochopíte teď, ušetříte si hodiny debugování v Dockeru.*
 
 Když spouštíte server, můžete mu říct, na kterých síťových kartách má naslouchat.
